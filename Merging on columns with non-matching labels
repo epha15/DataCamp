@@ -1,0 +1,6 @@
+https://campus.datacamp.com/courses/merging-dataframes-with-pandas/merging-data?ex=4
+# Merge revenue & managers on 'city' & 'branch': combined
+combined = pd.merge(revenue,managers, left_on='city', right_on='branch')
+
+# Print combined
+print(combined)
